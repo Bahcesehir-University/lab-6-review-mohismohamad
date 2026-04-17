@@ -96,7 +96,7 @@ public:
     // Name must not be empty. If empty, keep current name.
     void setName(string n) {
         // YOUR CODE HERE
-        if(n.empty()){
+        if(!n.empty()){
         	name = n;
 		}
     }
@@ -173,7 +173,7 @@ Student findBestStudent(Student arr[], int size) {
     	if (best < arr[i] )
     	     best = arr[i];
 	}
-    return arr[0];
+    return best;
 }
 
 // ================================
@@ -222,3 +222,49 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
