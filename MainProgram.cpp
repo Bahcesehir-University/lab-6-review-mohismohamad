@@ -119,7 +119,7 @@ public:
     string getFormattedName() const {
         // YOUR CODE HERE
         string temp = name;
-        for(int i = 0; i < temp.length(); i++){
+        for(int i = 0; i <= temp.length(); i++){
         	temp[i] = toupper(temp[i]);
 		}
         return temp;
